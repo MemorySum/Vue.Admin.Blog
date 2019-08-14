@@ -61,7 +61,7 @@ function filterNull (o) {
   
   // 返回在vue模板中的调用接口
   export default {
-    get: function (url, params, success, failure) {
+    get: function (url, params, success, failure) {  
       return apiAxios('GET', url, params, success, failure)
     },
     post: function (url, params, success, failure) {
